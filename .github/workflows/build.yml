@@ -2,8 +2,8 @@ name: Build MTVehicles
 
 on:
   push:
-    branches: [ "master", "main" ]
-  pull_request:
+    branches: [ "allow-server-v1.21.11", "master" ]
+  workflow_dispatch:
 
 jobs:
   build:
